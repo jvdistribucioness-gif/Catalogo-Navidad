@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Catálogo de Navidad</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f9fa;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .cover-page {
+            background: linear-gradient(135deg, #8B0000, #1E4D2B);
+            color: white;
+            text-align: center;
+            padding: 120px 20px;
+            border-radius: 12px;
+            margin-bottom: 40px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+        .cover-page h1 {
+            font-size: 52px;
+            margin: 0 0 20px 0;
+            letter-spacing: 2px;
+        }
+        .cover-page p {
+            font-size: 22px;
+            margin: 0;
+            font-weight: 300;
+        }
+        h2.section-title {
+            text-align: center;
+            color: #1E4D2B;
+            border-bottom: 3px solid #8B0000;
+            padding-bottom: 10px;
+            margin-top: 50px;
+            margin-bottom: 30px;
+            font-size: 28px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            overflow: hidden;
+            border: 1px solid #ddd;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        }
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-bottom: 1px solid #ddd;
+            background-color: #eee;
+        }
+        .card-body {
+            padding: 15px;
+            text-align: center;
+        }
+        .item-id {
+            font-size: 13px;
+            color: #8B0000;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .item-name {
+            font-size: 16px;
+            font-weight: bold;
+            margin: 8px 0;
+            color: #222;
+        }
+        .item-price {
+            font-size: 19px;
+            color: #1E4D2B;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            font-size: 15px;
+            color: #444;
+            padding: 30px 20px;
+            border-top: 2px solid #ddd;
+            background-color: #fff;
+            border-radius: 8px;
+        }
+        .footer-contact {
+            margin-top: 15px;
+            font-weight: bold;
+            color: #1E4D2B;
+        }
+        .footer-contact span {
+            margin: 0 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- PORTADA -->
+    <div class="cover-page">
+        <h1>CATÁLOGO DE NAVIDAD</h1>
+        <p>¡Los mejores regalos y productos para esta temporada especial!</p>
+    </div>
+
+    <h2 class="section-title">Nuestros Productos</h2>
+
+    <div class="grid">
+        <!-- DM-25062-1 -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/1iVJ1b8tlY1eXUEaNXUsRPsy5D563LA8t" alt="DM-25062-1">
+            <div class="card-body">
+                <div class="item-id">Ítem: DM-25062-1</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$200,000</div>
+            </div>
+        </div>
+
+        <!-- DM-25062-2 -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/1NTEvOPA6b8UQSwq_XV4lFJrZNvTIKxnk" alt="DM-25062-2">
+            <div class="card-body">
+                <div class="item-id">Ítem: DM-25062-2</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$200,000</div>
+            </div>
+        </div>
+
+        <!-- DM-25062-3 -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/1eKnX5Tx-YXC5NJZJmKSJ4Ga_-gY4xxnS" alt="DM-25062-3">
+            <div class="card-body">
+                <div class="item-id">Ítem: DM-25062-3</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$200,000</div>
+            </div>
+        </div>
+
+        <!-- DS024-1 -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/19OrNpMyiiIyxeFUWE9TYrUWq_mmRc5I4" alt="DS024-1">
+            <div class="card-body">
+                <div class="item-id">Ítem: DS024-1</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$40,000</div>
+            </div>
+        </div>
+
+        <!-- DS030G -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/1pIPnJvbAIfh5aTgtC2EE5DIaoazRw8UP" alt="DS030G">
+            <div class="card-body">
+                <div class="item-id">Ítem: DS030G</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$115,000</div>
+            </div>
+        </div>
+
+        <!-- DS101B -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/1otzt0N8PXNdq26xh3nX3hqW4gMP6e2pb" alt="DS101B">
+            <div class="card-body">
+                <div class="item-id">Ítem: DS101B</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$100,000</div>
+            </div>
+        </div>
+
+        <!-- DS101C -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/1shRB0A468gUlu_scPv6BWYi6m60jymFn" alt="DS101C">
+            <div class="card-body">
+                <div class="item-id">Ítem: DS101C</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$100,000</div>
+            </div>
+        </div>
+
+        <!-- DS241 -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/1cVBxr4bgwYHpNo9ht2hmF2fIQ2Jjhm0Y" alt="DS241">
+            <div class="card-body">
+                <div class="item-id">Ítem: DS241</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$45,000</div>
+            </div>
+        </div>
+
+        <!-- DS2501B -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/1uwRb1NcIMkbfyUAIWF64mnuBjOsrz0Ny" alt="DS2501B">
+            <div class="card-body">
+                <div class="item-id">Ítem: DS2501B</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$158,000</div>
+            </div>
+        </div>
+
+        <!-- DS2501C -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/16U_4Yjm2CtmKuCmgAW8VRZc3XMgP8DCC" alt="DS2501C">
+            <div class="card-body">
+                <div class="item-id">Ítem: DS2501C</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$158,000</div>
+            </div>
+        </div>
+
+        <!-- DS2501D -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/1e0m-QjCHH582ovHoF5vg1M4iytre63hj" alt="DS2501D">
+            <div class="card-body">
+                <div class="item-id">Ítem: DS2501D</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$158,000</div>
+            </div>
+        </div>
+
+        <!-- DS2503K -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/1FiNFqoN-KA1rhmT_fI6wh4lXqGpKLxny" alt="DS2503K">
+            <div class="card-body">
+                <div class="item-id">Ítem: DS2503K</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$100,000</div>
+            </div>
+        </div>
+
+        <!-- DS2503L -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/1Mkca81iHf7pmcKp-medrKXY5Grr5SQ4o" alt="DS2503L">
+            <div class="card-body">
+                <div class="item-id">Ítem: DS2503L</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$100,000</div>
+            </div>
+        </div>
+
+        <!-- DS2517C -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/1V708IOhJ4rGThWFe4zxoXtKSb4VwyHrE" alt="DS2517C">
+            <div class="card-body">
+                <div class="item-id">Ítem: DS2517C</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$130,000</div>
+            </div>
+        </div>
+
+        <!-- DS2517L -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/1Ih44UAO11xumbquzOw9h6lBsv43Ze_A4" alt="DS2517L">
+            <div class="card-body">
+                <div class="item-id">Ítem: DS2517L</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$143,000</div>
+            </div>
+        </div>
+
+        <!-- DS2519C -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/1S_g0wAkPqqCrUF0vhgmsVblrDaSBPZGa" alt="DS2519C">
+            <div class="card-body">
+                <div class="item-id">Ítem: DS2519C</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$100,000</div>
+            </div>
+        </div>
+
+        <!-- DS2525A -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/1bX1VM1uTy8bylDDquyisQ2oD45wDRX5K" alt="DS2525A">
+            <div class="card-body">
+                <div class="item-id">Ítem: DS2525A</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$115,000</div>
+            </div>
+        </div>
+
+        <!-- DS2601B -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/12lAInCKF82dv1fJJqSovRprrHnQBfSoM" alt="DS2601B">
+            <div class="card-body">
+                <div class="item-id">Ítem: DS2601B</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$115,000</div>
+            </div>
+        </div>
+
+        <!-- DS2602A -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/1dEhU0SIyg_WTIcs4wzg97AL00ilWNR1D" alt="DS2602A">
+            <div class="card-body">
+                <div class="item-id">Ítem: DS2602A</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$100,000</div>
+            </div>
+        </div>
+
+        <!-- DS2602B -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/1CqFDTWZ8J5E9HUA__2N4oASvipjuzQ-T" alt="DS2602B">
+            <div class="card-body">
+                <div class="item-id">Ítem: DS2602B</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$100,000</div>
+            </div>
+        </div>
+
+        <!-- DS601B -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/1yPQIFH10dACUjrQp6vo2GeJVNjrUigHB" alt="DS601B">
+            <div class="card-body">
+                <div class="item-id">Ítem: DS601B</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$185,000</div>
+            </div>
+        </div>
+
+        <!-- DS603A -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/1CLETYZk55o-il6xKkW5EOqikLlhbtQgo" alt="DS603A">
+            <div class="card-body">
+                <div class="item-id">Ítem: DS603A</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$185,000</div>
+            </div>
+        </div>
+
+        <!-- DS801B -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/1R7beZLfJ-e2A_HelJAHc_X4C65QrKHF8" alt="DS801B">
+            <div class="card-body">
+                <div class="item-id">Ítem: DS801B</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$165,000</div>
+            </div>
+        </div>
+
+        <!-- DS801H -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/1Sb5iefcwsIMPgB0ZrqvPb5czW1vV7LeI" alt="DS801H">
+            <div class="card-body">
+                <div class="item-id">Ítem: DS801H</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$165,000</div>
+            </div>
+        </div>
+
+        <!-- DS804C -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/1p_nOMk1tM1S_C1pU8VZdwRex_zrXw6VM" alt="DS804C">
+            <div class="card-body">
+                <div class="item-id">Ítem: DS804C</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$178,000</div>
+            </div>
+        </div>
+
+        <!-- DS804I -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/1YADWReBSKIyPLD4ui50xxujudXO0yo9b" alt="DS804I">
+            <div class="card-body">
+                <div class="item-id">Ítem: DS804I</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$178,000</div>
+            </div>
+        </div>
+
+        <!-- DS804J -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/1fWWp4AH2PLQVCtV4QizpwCTqLnZ-bFH7" alt="DS804J">
+            <div class="card-body">
+                <div class="item-id">Ítem: DS804J</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$178,000</div>
+            </div>
+        </div>
+
+        <!-- DS807A -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/1XmgQ5yG-87S6xQ7z_uusRJztzHpsDtvl" alt="DS807A">
+            <div class="card-body">
+                <div class="item-id">Ítem: DS807A</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$135,000</div>
+            </div>
+        </div>
+
+        <!-- DS807C -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/1LxW0GL7UCJX2aU0rG5c0FR8fT4g0t9Au" alt="DS807C">
+            <div class="card-body">
+                <div class="item-id">Ítem: DS807C</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$135,000</div>
+            </div>
+        </div>
+
+        <!-- DS809ABC -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/1dWe1eEduMaCgHoh3CfDh2bF6LUuXTy2d" alt="DS809ABC">
+            <div class="card-body">
+                <div class="item-id">Ítem: DS809ABC</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$147,000</div>
+            </div>
+        </div>
+
+        <!-- DS809K -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/1YDic6RYb_BIlcbYBlUnYnm1E6evVa_mH" alt="DS809K">
+            <div class="card-body">
+                <div class="item-id">Ítem: DS809K</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$147,000</div>
+            </div>
+        </div>
+
+        <!-- DS810A -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/13s_vGwd9aMVAiIOkmmzZaiLQblPvFcbr" alt="DS810A">
+            <div class="card-body">
+                <div class="item-id">Ítem: DS810A</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$120,000</div>
+            </div>
+        </div>
+
+        <!-- DS813B -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/1xY2jUYfXRgTEsTvlItBOr_mieiahzYNk" alt="DS813B">
+            <div class="card-body">
+                <div class="item-id">Ítem: DS813B</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$107,000</div>
+            </div>
+        </div>
+
+        <!-- DS813C -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/1FbUO09ztKtzoO0HhJAi_tHlJy292sHtu" alt="DS813C">
+            <div class="card-body">
+                <div class="item-id">Ítem: DS813C</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$107,000</div>
+            </div>
+        </div>
+
+        <!-- DS817D -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/1en1uuA4IV-d6PRur8E2aENstxMBAKL1v" alt="DS817D">
+            <div class="card-body">
+                <div class="item-id">Ítem: DS817D</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$115,000</div>
+            </div>
+        </div>
+
+        <!-- DS817I -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/1uT8dGrxrtZqqYoKbdsiDq6_Zt6sLUR_k" alt="DS817I">
+            <div class="card-body">
+                <div class="item-id">Ítem: DS817I</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$115,000</div>
+            </div>
+        </div>
+
+        <!-- DS826B -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/15BebHHmXohZlfHTuaNk13arFtkpdwlNg" alt="DS826B">
+            <div class="card-body">
+                <div class="item-id">Ítem: DS826B</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$120,000</div>
+            </div>
+        </div>
+
+        <!-- DS826C -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/1cRF-vbNMADLonDRYq20K8lDR0YJKEn4c" alt="DS826C">
+            <div class="card-body">
+                <div class="item-id">Ítem: DS826C</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$115,000</div>
+            </div>
+        </div>
+
+        <!-- DS827A -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/1P4L-4yQA2K_7P61Akk-yWhb7KIh-PHlz" alt="DS827A">
+            <div class="card-body">
+                <div class="item-id">Ítem: DS827A</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$118,000</div>
+            </div>
+        </div>
+
+        <!-- DS827B -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/1p1B6nwjE3IMd4wnwwraNnB6EOD4Ovc-u" alt="DS827B">
+            <div class="card-body">
+                <div class="item-id">Ítem: DS827B</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$118,000</div>
+            </div>
+        </div>
+
+        <!-- DS833G -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/1wD4GzHmav9UBAEKs6Jm5uuOZcU9crHtI" alt="DS833G">
+            <div class="card-body">
+                <div class="item-id">Ítem: DS833G</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$159,000</div>
+            </div>
+        </div>
+
+        <!-- DS834A -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/11CTBA-GztxT-x8LXrpMsyU6uzqldA9Mo" alt="DS834A">
+            <div class="card-body">
+                <div class="item-id">Ítem: DS834A</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$178,000</div>
+            </div>
+        </div>
+
+        <!-- F25175A -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/1-rrGGudinxCLnbT5z38b5KMxFkrkLnmI" alt="F25175A">
+            <div class="card-body">
+                <div class="item-id">Ítem: F25175A</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$120,000</div>
+            </div>
+        </div>
+
+        <!-- LKQ-006 -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/1Ez5d8BjaJGQLRo6rWtthZuQ-HjvqXgIK" alt="LKQ-006">
+            <div class="card-body">
+                <div class="item-id">Ítem: LKQ-006</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$50,000</div>
+            </div>
+        </div>
+
+        <!-- LKQ026 -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/17CNgD3VVIHyWSwuTFLzhtOac5VFKZZir" alt="LKQ026">
+            <div class="card-body">
+                <div class="item-id">Ítem: LKQ026</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$35,000</div>
+            </div>
+        </div>
+
+        <!-- LWB01B -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/1AAUlq1q0jim7CgqNJaYZX6lXoC3zRFN1" alt="LWB01B">
+            <div class="card-body">
+                <div class="item-id">Ítem: LWB01B</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$100,000</div>
+            </div>
+        </div>
+
+        <!-- LZ01A -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/1J4YuHoIKytJ5EBbahT2iM8EtYvGVZ35f" alt="LZ01A">
+            <div class="card-body">
+                <div class="item-id">Ítem: LZ01A</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$107,000</div>
+            </div>
+        </div>
+
+        <!-- LZ01B -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/1W2xqWtWw5XtgMBIhYHD-glfEFnBzr3DR" alt="LZ01B">
+            <div class="card-body">
+                <div class="item-id">Ítem: LZ01B</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$107,000</div>
+            </div>
+        </div>
+
+        <!-- LZ01K -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/158bJ0Z9mYG-wSCWC6MgarZJx3mNv3GtX" alt="LZ01K">
+            <div class="card-body">
+                <div class="item-id">Ítem: LZ01K</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$107,000</div>
+            </div>
+        </div>
+
+        <!-- PM25-085 -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/1kWo5At07z3j9OMEc-4XdkHmTrenyLDFP" alt="PM25-085">
+            <div class="card-body">
+                <div class="item-id">Ítem: PM25-085</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$48,000</div>
+            </div>
+        </div>
+
+        <!-- PM25-086 -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/1HmMXiHjyahMHWKPR-sNLt1Lt4UX_oLdz" alt="PM25-086">
+            <div class="card-body">
+                <div class="item-id">Ítem: PM25-086</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$58,000</div>
+            </div>
+        </div>
+
+        <!-- WDL-25001 -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/1VBEjCV3c36xSvv4QcQmnwTOrElOhFFMe" alt="WDL-25001">
+            <div class="card-body">
+                <div class="item-id">Ítem: WDL-25001</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$215,000</div>
+            </div>
+        </div>
+
+        <!-- ZK126 -->
+        <div class="card">
+            <img src="https://lh3.googleusercontent.com/d/1bf3Z9iZhlviiT-t0CBfLSureYJI0lOZH" alt="ZK126">
+            <div class="card-body">
+                <div class="item-id">Ítem: ZK126</div>
+                <div class="item-name">Producto Navideño</div>
+                <div class="item-price">$25,000</div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Catálogo de Navidad &copy; 2026 - Todos los derechos reservados</p>
+        <div class="footer-contact">
+            <span>WhatsApp:+ 3192295774</span> | 
+            <span>TikTok: @JVIMPORTACIONES</span> | 
+            <span>Instagram: @JVIMPORTACIONES</span>
+        </div>
+    </footer>
+
+</body>
+</html>
